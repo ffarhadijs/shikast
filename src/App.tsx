@@ -115,7 +115,7 @@ function App() {
               className="absolute top-10 right-10"
             >
               <Text
-                fw={700}
+                fw={400}
                 fz={{ base: 30, sm: 40 }}
                 display={{ sm: "none" }}
                 span
@@ -124,7 +124,7 @@ function App() {
                 kast
               </Text>
               <Text
-                fw={400}
+                fw={700}
                 fz={{ base: 30, sm: 40 }}
                 span
                 display={{ sm: "none" }}

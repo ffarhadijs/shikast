@@ -1,3 +1,232 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* --------dana--------- */
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-black.eot");
+  src: url("./assets/fonts/dana/eot/dana-black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-black.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-black.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-bold.eot");
+  src: url("./assets/fonts/dana/eot/dana-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-bold.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-bold.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-demibold.eot");
+  src: url("./assets/fonts/dana/eot/dana-demibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-demibold.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-demibold.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-demibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-extrabold.eot");
+  src: url("./assets/fonts/dana/eot/dana-extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-extrabold.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-extrabold.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-extrabold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-extralight.eot");
+  src: url("./assets/fonts/dana/eot/dana-extralight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-extralight.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-extralight.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-light.eot");
+  src: url("./assets/fonts/dana/eot/dana-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-light.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-light.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-medium.eot");
+  src: url("./assets/fonts/dana/eot/dana-medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-medium.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-medium.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-thin.eot");
+  src: url("./assets/fonts/dana/eot/dana-thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-thin.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-thin.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dana";
+  src: url("./assets/fonts/dana/eot/dana-regular.eot");
+  src: url("./assets/fonts/dana/eot/dana-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/dana/woff2/dana-regular.woff2") format("woff2"),
+    url("./assets/fonts/dana/woff/dana-regular.woff") format("woff"),
+    url("./assets/fonts/dana/ttf/dana-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --------peyda--------- */
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Black.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-Black.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Bold.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-Bold.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-ExtraBold.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Medium.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-Medium.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Regular.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-Regular.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-SemiBold.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-SemiBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Thin.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-Thin.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-Thin.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/peydaWeb-extralight.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-extralight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-extralight.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-extralight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "peyda";
+  src: url("./assets/fonts/peyda/eot/peydaWeb-light.eot");
+  src: url("./assets/fonts/peyda/eot/PeydaWeb-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/peyda/woff2/PeydaWeb-light.woff2") format("woff2"),
+    url("./assets/fonts/peyda/woff/PeydaWeb-light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+

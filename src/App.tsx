@@ -19,7 +19,7 @@ import Timer from "./components/timer/Timer";
 import pattern from "./assets/images/patten.png";
 import Services from "./components/services/Services";
 import Footer from "./components/layout/footer/Footer";
-import group from "./assets/images/group.png"
+import group from "./assets/images/group.png";
 function App() {
   const [verification, setVerification] = useState<boolean>(false);
   const [complete, setComplete] = useState<boolean>(false);
@@ -64,15 +64,15 @@ function App() {
               <Image src={pattern} alt="pattern" w={350} />
             </Group>
             <Text
-              fw={700}
+              fw={400}
               fz={40}
               display={{ base: "none", sm: "inline-block" }}
               className="absolute top-10 right-40 font-dana inline-block"
             >
-              <Text fw={400} fz={40} className="inline-block">
-                kast
+              <Text fw={700} fz={40} span>
+                Shi
               </Text>
-              Shi
+              kast
             </Text>
 
             <Group
@@ -88,8 +88,7 @@ function App() {
               />
             </Group>
             <Box className="flex justify-center items-center w-[90%] sm:w-full h-full -top-[730px] sm:-top-[690px] md:top-0 absolute md:relative">
-              {/* <LoginImg /> */}
-              <Image src={group} alt="group" w={500}/>
+              <Image src={group} alt="group" w={500} />
             </Box>
             <Services />
             <Footer />
@@ -109,17 +108,31 @@ function App() {
             >
               <Image src={pattern} alt="pattern" w={350} />
             </Group>
-            <Text
-              fw={700}
-              fz={{ base: 30, sm: 40 }}
-              display={{ sm: "none" }}
-              className="absolute top-10 right-10 font-dana inline-block"
+            <Group
+              justify="start"
+              gap={0}
+              align="baseline"
+              className="absolute top-10 right-10"
             >
-              <Text fw={400} inherit className="inline-block">
+              <Text
+                fw={700}
+                fz={{ base: 30, sm: 40 }}
+                display={{ sm: "none" }}
+                span
+                className="font-dana "
+              >
                 kast
               </Text>
-              Shi
-            </Text>
+              <Text
+                fw={400}
+                fz={{ base: 30, sm: 40 }}
+                span
+                display={{ sm: "none" }}
+                className="font-dana "
+              >
+                Shi
+              </Text>
+            </Group>
             <Group justify="left" className="absolute top-10 left-10">
               <Button
                 variant="outline"
@@ -181,6 +194,7 @@ function App() {
                         fz={{ base: 13, sm: 16 }}
                         c={"#3D3D3D"}
                         className="inline-block"
+                        span
                       >
                         {form.values.phoneNumber}
                       </Text>{" "}

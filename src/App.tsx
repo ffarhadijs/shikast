@@ -16,11 +16,10 @@ import { hasLength, useForm } from "@mantine/form";
 import { useState } from "react";
 import VerificationInput from "react-verification-input";
 import Timer from "./components/timer/Timer";
-import LoginImg from "./components/loginImg/LoginImg";
 import pattern from "./assets/images/patten.png";
 import Services from "./components/services/Services";
 import Footer from "./components/layout/footer/Footer";
-
+import group from "./assets/images/group.png"
 function App() {
   const [verification, setVerification] = useState<boolean>(false);
   const [complete, setComplete] = useState<boolean>(false);
@@ -88,8 +87,9 @@ function App() {
                 className="rotate-180"
               />
             </Group>
-            <Box className="flex justify-center items-center w-full h-full -top-[660px] sm:-top-[640px] md:top-0 absolute md:relative">
-              <LoginImg />
+            <Box className="flex justify-center items-center w-[90%] sm:w-full h-full -top-[730px] sm:-top-[690px] md:top-0 absolute md:relative">
+              {/* <LoginImg /> */}
+              <Image src={group} alt="group" w={500}/>
             </Box>
             <Services />
             <Footer />

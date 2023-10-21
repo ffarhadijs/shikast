@@ -10,7 +10,7 @@ export default function Services() {
       style={{
         borderRadius: "100%/60px 60px 0 0",
       }}
-      className="inline-block md:hidden w-full h-auto mt-52 border border-dashed border-[#DADBE7] border-t-[1px] border-b-0 border-l-0 border-r-0"
+      className="inline-block md:hidden w-full h-auto mt-72 border border-dashed border-[#DADBE7] border-t-[1px] border-b-0 border-l-0 border-r-0"
     >
       <Grid className="py-10">
         <Grid.Col span={6} className="text-center">
